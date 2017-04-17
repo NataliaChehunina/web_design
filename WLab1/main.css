@@ -1,0 +1,166 @@
+html, body {
+margin: 0;
+padding: 0;
+}
+
+#top {
+width: 100%;
+margin: auto;
+}
+
+#logo{
+width:25%;
+height:100%	
+}
+#header {
+background-color: #0000;
+height: 30vh;
+}
+#menu {
+text-align: center;
+height: 10vh;
+padding:7px 7px;
+background: linear-gradient(to right bottom, #577e91, #b8d1db);
+box-shadow: 0 6px 2px #404d59;
+position:relative;
+}
+
+#middle{
+background: linear-gradient(to right bottom, #cccccc, white);
+}
+
+ul li{
+display:inline;
+}
+
+ul li a
+{
+font: normal,arial,sans-serif;	
+font-size: 20px;
+padding:0 100px;
+color:black;
+text-transform:uppercase;
+font-weight:bold;
+text-decoration: none;
+}
+
+ol li a
+{
+font: normal,arial,sans-serif;	
+font-size: 30px;
+color:black;
+text-transform:uppercase;
+}
+
+
+#sidebar {
+background: url(./images/3.jpg) no-repeat;
+background-size: 100% 100%;
+height:550px;
+width: 40%;
+float: right;
+}
+#content{
+height:550px;
+}
+
+#himg{
+padding-left:80px;
+height:350px;
+width:370px;	
+}
+
+#bimg{
+padding-left:80px;
+padding-top:25px;
+height:450px;
+width:430px;	
+}
+
+#paintings{
+height:2900px;
+}
+
+#contacts{
+letter-spacing:1.5 px;
+padding:60px 250px;
+font-color:black;
+text-align: left;
+font-size: 22px;
+line-height: 1.5;
+}
+
+#biography{
+padding:100px 100px;
+font-color:black;
+text-align: left;
+font-size: 17px;
+line-height: 1.5;
+}
+
+#src{
+padding:25px 50px;
+font-color:black;
+text-align: left;
+font-size: 22px;
+line-height: 1.5;
+text-transform:uppercase;
+}
+
+.im1{
+padding-left:200px;
+padding-top:50px;
+height:271px;
+width:368px;
+}
+
+.im6{
+padding-left:200px;
+padding-top:50px;
+height:368px;
+width:271px;
+}
+
+.text{
+font: normal,arial,sans-serif;	
+padding:15px 200px;
+font-color:black;
+text-align: left;
+font-size: 22px;
+text-transform:uppercase;
+}
+
+#bottom {
+width: 100%;
+margin: auto;
+}
+
+#footer {
+background: linear-gradient(to right bottom, #577e91, #b8d1db);
+text-align: center;
+height: 70px;
+font: normal,arial,sans-serif;	
+font-size: 15px;
+color:black;
+}
+blockquote{
+font: normal,arial,sans-serif;	
+font-size: 20px;
+padding: 30px 20px 30px 45px;
+width:600px;
+height:100px;
+background-color: #577e91;
+color:white;
+box-shadow: 0 5px 2px #404d59;
+position:relative;
+}
+ 
+blockquote:before {
+color: #ffffff;
+content: "“";
+display: block;
+font-size: 80px;
+left: 5px;
+position: absolute;
+top: -10px;
+}
