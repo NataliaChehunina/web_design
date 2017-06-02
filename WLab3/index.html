@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title>Text Editor</title>
+		<link rel="stylesheet" href="styles.css" />
+		<meta http-equiv="Content-Type" content="text/html; charset=windows-1251"> 
+	</head>
+	<body>			
+		<a href="#" class = "button" id = "normal" onclick="normalFont();return false;">N</a>
+		<a href="#" class = "button" id = "italic" onclick="italicFont();return false;">I</a>
+		<a href="#" class = "button" id = "bold" onclick="boldFont();return false;">B</a>
+		<a href="#" class = "button" id = "underline" onclick="underlineFont();return false;">U</a>
+		<a href="#" class = "button" id = "shift" onclick="changeShift();return false;">Aa</a>
+		<a href="#" class = "color" id = "black" onclick="changeFontColor(1);return false;">Black</a>
+		<a href="#" class = "color" id = "red" onclick="changeFontColor(0);return false;">Red</a>
+		<a href="#" class = "color" id = "green" onclick="changeFontColor(2);return false;">Green</a>
+		<a href="#" class = "color" id = "blue" onclick="changeFontColor(3);return false;">Blue</a>
+		
+		
+		<form name="editform" id="editform" method="post" action="#">
+			<p><textarea id="textbox" name = "text"></textarea></p>
+			<p><input type="reset" value="Clear" id = "resetbutton"></p>
+			<p><input type="reset" value="Save" id = "savebutton"></p>
+		</form>
+
+		<p>Documents on server: </p>
+		<ul id="saved_files">
+		</ul>
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script src="editor.js"></script>
+		<script src="client-part.js"></script>
+	</body>
+</html>
